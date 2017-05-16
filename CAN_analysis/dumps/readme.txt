@@ -8,3 +8,5 @@ Also changed 0x01 ignition enable message to 0x101, added 0x100 at end for disab
 Use my modified candue GVRET software to make this work. Digital pin 7 should be connected to load switch.
 
 Also got some files I constructed to enable and disable the DC/DC converter. 112_on.csv and 112_off.csv Replay with long delay (1s?) between messages. Seems to work consistantly.
+
+mymotor.csv is simply a CAN dump of my motor with the 12V rail enabled and no messages being sent to it
